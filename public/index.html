@@ -9,7 +9,7 @@
       background-color: #fefefe;
       font-family: 'Comic Sans MS', cursive, sans-serif;
       text-align: center;
-      padding: 40px;
+      padding: 20px;
       color: #333;
     }
 
@@ -20,10 +20,29 @@
     }
 
     img {
-      max-width: 90%;
+      max-width: 600px;
+      width: 90%;
       height: auto;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-bottom: 30px;
+    }
+
+    .scratch-embed {
+      width: 95vw;
+      max-width: 1200px;
+      height: 90vh;
+      margin: 0 auto;
+      border: 4px solid #ff6600;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
     }
 
     p {
@@ -44,12 +63,16 @@
   <h1>Welcome to Cat-apult!</h1>
   <img src="cat_apult.jpg" alt="Cat-apult funny image">
   <p>
-    What do you get when you mix medieval siege technology with mischievous felines?
-    A <strong>Cat-apult</strong>! Our site is dedicated to the hilarity and imagination of launching cats (figuratively, of course) into action.
+    Behold the mighty <strong>Cat-apult</strong> — where feline fun meets medieval mischief!
+    Try out our Scratch-powered cat-launcher below!
   </p>
 
+  <div class="scratch-embed">
+    <iframe src="https://scratch.mit.edu/projects/1185691957/embed" allowtransparency="true" allowfullscreen scrolling="no"></iframe>
+  </div>
+
   <footer>
-    &copy; 2025 Cat-apult Inc. No cats were harmed in the making of this website.
+    &copy; 2025 Cat-apult Inc. Cats not actually launched. It's just a game!
   </footer>
 
 </body>
